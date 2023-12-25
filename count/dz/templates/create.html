@@ -1,0 +1,23 @@
+<h1>Создание объявления</h1>
+
+
+    <div class="">
+        <h1>Форма для мониторинга</h1>
+        {{ text }}
+        <form method="post" >
+            {% csrf_token %}
+            <p>Текст</p>
+            {{ form.text }}<br>
+            <p>искомое слово</p>
+            {{ form.count }}<br>
+            {{ text.count }}
+
+
+
+
+            <button class="btn btn-success" type="submit" value="Save">Добавить</button>
+        </form>
+
+
+
+    </div>

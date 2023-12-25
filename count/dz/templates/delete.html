@@ -1,0 +1,15 @@
+
+
+<h1>Удаление текста</h1>
+
+
+    <div class="features">
+        <h1>Текста</h1>
+        <form method="post">
+            {% csrf_token %}
+            <h2>{{ text }}</h2>
+
+          <button class="btn btn-danger" type="submit" value="Save">Удалить!</button>
+        </form>
+
+    </div>

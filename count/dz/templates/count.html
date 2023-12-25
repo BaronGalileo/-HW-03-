@@ -1,0 +1,19 @@
+<h1>Для подсчета наибольшего  количества символов</h1>
+
+
+
+
+    <div class="">
+        <h1>Форма итого</h1>
+        <p>{{ text.text }}</p>
+
+
+         <h1>Искомое слово:{{ text.count }}</h1>
+
+
+            <h1>Ответ:{{ text.wordcount }}</h1>
+
+            <td><p><a href="{% url 'clear-memory' text.id %}"><li>Удалить</li></a></p></td>
+
+
+    </div>
